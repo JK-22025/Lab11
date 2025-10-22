@@ -3,8 +3,8 @@
 session_start();
 
 // Simple authentication (in real app, use secure authentication)
-$valid_username = "admin";
-$valid_password = "passWORD123@";
+$valid_username = "JK_23";
+$valid_password = "PieceofCake@1994";
 
 if ($_POST['username'] === $valid_username && $_POST['password'] === $valid_password) {
     $_SESSION['authenticated'] = true;
