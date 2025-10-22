@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['authenticated']) || !$_SESSION['authenticated']) {
-    header('Location: index.pha');
+    header('Location: index.php');
     exit();
 }
 
